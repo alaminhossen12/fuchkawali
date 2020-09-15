@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuchka-Wali</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+
+    <style>
+.content-main {
+  height: 200vh;
+}
+
+.fh5co-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.fh5co-bg {
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  width: 100%;
+  float: left;
+}
+.fh5co-bg .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.fh5co-bg-section {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+#fh5co-footer {
+  padding: 7em 0;
+  clear: both;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-footer {
+    padding: 3em 0;
+  }
+}
+
+#fh5co-footer {
+  position: relative;
+}
+#fh5co-footer .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+#fh5co-footer h3 {
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+}
+#fh5co-footer .fh5co-footer-links {
+  padding: 0;
+  margin: 0;
+}
+#fh5co-footer .fh5co-footer-links li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#fh5co-footer .fh5co-footer-links li a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+#fh5co-footer .fh5co-footer-links li a:hover {
+  text-decoration: underline;
+}
+#fh5co-footer .fh5co-widget {
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-footer .fh5co-widget {
+    text-align: left;
+  }
+}
+#fh5co-footer .fh5co-widget h3 {
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+#fh5co-footer .copyright .block {
+  display: block;
+}
+
+
+.btn-primary {
+  background: #F85A16;
+  color: #fff;
+  border: 2px solid #F85A16;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background: #f96c2f !important;
+  border-color: #f96c2f !important;
+}
+.btn-primary.btn-outline {
+  background: transparent;
+  color: #F85A16;
+  border: 1px solid #F85A16;
+}
+.btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
+  background: #F85A16;
+  color: #fff;
+}
+
+
+
+
+
+                body{
+
+
+                    background-color :gray;
+                }
+                .h1{
+                    font-size:6.1rem;
+                    line-height: 1.4;
+                    letter-spacing:0.5rem;
+                    text-align: center;
+                    color: rgb(236, 233, 22);
+                    margin-top:150px;
+                    
+  
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+                }
+
+
+                @-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgb(221, 173, 16), 0 0 20px rgb(236, 176, 9), 0 0 30px #d1ac04, 0 0 40px #d4ae03, 0 0 50px #ddac0c, 0 0 60px #e7e304, 0 0 70px #f0cd08;
+  }
+  
+  to {
+    text-shadow: 0 0 20px rgb(231, 235, 27), 0 0 30px #bef00c, 0 0 40px #eeea11, 0 0 50px #f5f112, 0 0 60px #ecb313, 0 0 70px #c3f316, 0 0 80px #e4d505;
+  }
+}
+
+
+
+.olink{
+    text-decoration-style: none;
+    color: white;
+}
+
+.olink:hover{
+    text-decoration-style: none;
+    color: white;
+}
+
+
+                .maindiv{
+                    width:100%;
+                    height: 700px;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%,-50%);
+                    background-image: url('https://scontent.fdac14-1.fna.fbcdn.net/v/t1.0-9/s960x960/73155137_136735127703678_383945491869597696_o.jpg?_nc_cat=101&_nc_sid=e3f864&_nc_ohc=trVwi_8cmToAX9DQDkD&_nc_ht=scontent.fdac14-1.fna&tp=7&oh=664c5b42757fcfe3407876513ec50b5f&oe=5F6E35F3');
+                    background-size: 100% 100%;
+                    box-shadow: 1px 2px 5px white;
+                    animation: slider 15s infinite linear;
+
+                }
+                @keyframes slider {
+                    0%{background-image: url(https://scontent.fdac14-1.fna.fbcdn.net/v/t1.0-0/p180x540/71404419_130968611613663_2388174637470056448_o.jpg?_nc_cat=108&_nc_sid=e3f864&_nc_ohc=9L1IodAJJvAAX_qtcqA&_nc_ht=scontent.fdac14-1.fna&tp=6&oh=c5230d53d54b67f44f9d23849548ae6f&oe=5F6DD88B);
+                        
+                    }
+                35%{
+                    background-image: url(https://scontent.fdac14-1.fna.fbcdn.net/v/t1.0-0/p552x414/71400172_130966934947164_7248579205531697152_o.jpg?_nc_cat=101&_nc_sid=730e14&_nc_ohc=Ie2stz6aCHcAX9gHqCE&_nc_ht=scontent.fdac14-1.fna&tp=6&oh=8c4d0aa2a5ec2a9e8205c498c3d75939&oe=5F6D6FD1);
+                } 
+                75%{
+                    background-image: url(https://scontent.fdac14-1.fna.fbcdn.net/v/t1.0-0/p180x540/71820230_130958948281296_7407007586869837824_o.jpg?_nc_cat=107&_nc_sid=730e14&_nc_ohc=6jD_ZpJRwIUAX-mHEGz&_nc_ht=scontent.fdac14-1.fna&tp=6&oh=9bf484892e6d8dd62f5e86a12ab87347&oe=5F6D74B3);
+                }
+                }
+
+
+
+    </style>
+
+</head>
+
+
+
+
+
+
+
+<body>
+    
+
+            <div class="d-inline maindiv">
+                <h1 class="h1">FUCHKA-WALI</h1>
+            
+               <h2></h2>
+            </div>
+
+<div class="container">
+
+
+    <div style="margin-top: 700px; border-bottom: 1px solid yellow;" class="row" >
+        <div class="col-sm-4">
+<img style="width: 100%; " src="https://scontent.fdac14-1.fna.fbcdn.net/v/t1.0-0/p180x540/71510248_130952084948649_5266443762543886336_o.jpg?_nc_cat=108&_nc_sid=730e14&_nc_ohc=XtggBN0-qIAAX-ukTBG&_nc_ht=scontent.fdac14-1.fna&tp=6&oh=881974c6484bf9ae9bab88cc58aabeb2&oe=5F6E2652" alt="">
+
+</div>
+<div class="col-sm-8">
+    <h1 style="color: yellow;">BOLOGNESE</h1>
+        <p>Have you had our signature "Bolognese Fuchka" yet? If you haven't, then you're definitely missing out on all the good things in life! Visit Fuchka-Wali and try out our ‘Bolognese Fuchkas’ stuffed with delicious Beef Filling topped with White Creamy Sauce for that perfect crispy Blend!</p>
+    <div class="row">
+
+        <div class="col-sm-4">
+            <h3  style="color: yellow;">price: 200tk</h3>
+        </div>
+        <div class="col-sm-4 col-md-4 col-4">
+            <button type="button" class="btn btn-primary "><a class="olink" href="payment.html"> order now</a></button>
+        </div>
+        <div class="col-sm-4 col-md-4 col-4">
+            <button style="background-color: black;" type="button" class="btn btn-Dark"><a  class="olink" href="cart.html"> add to cart</a></button>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div style="margin-top: 40px; border-bottom: 1px solid yellow;" class="row" >
+    <div class="col-sm-4">
+<img style="width: 100%; " src="https://scontent.fdac14-1.fna.fbcdn.net/v/t1.0-0/p552x414/71400172_130966934947164_7248579205531697152_o.jpg?_nc_cat=101&_nc_sid=730e14&_nc_ohc=Ie2stz6aCHcAX9gHqCE&_nc_ht=scontent.fdac14-1.fna&tp=6&oh=8c4d0aa2a5ec2a9e8205c498c3d75939&oe=5F6D6FD1" alt="">
+
+</div>
+<div class="col-sm-8">
+<h1 style="color: yellow;">MUMBAIYAN</h1>
+    <p>Treat yourself with the highly recommended 'Mumbaiyan Fuchka'. Head over to Fuchka-Wali and experience the taste of this Scrumptious and Juicy Fuchka!</p>
+    <div class="row">
+
+        <div class="col-sm-4">
+            <h3  style="color: yellow;">price: 160tk</h3>
+        </div>
+        <div class="col-sm-4 col-md-4 col-4">
+            <button type="button" class="btn btn-primary "><a class="olink" href="payment.html"> order now</a></button>
+        </div>
+        <div class="col-sm-4 col-md-4 col-4">
+            <button  style="background-color: black;" type="button" type="button" class="btn btn-Dark"><a class="olink" href="cart.html"> add to cart</a></button>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+<div style="margin-top:40px; border-bottom: 1px solid yellow;" class="row" >
+   
+<div class="col-sm-8">
+    <h1 style="color: yellow;">PESAWARI</h1>
+        <p>Treat your taste buds with something different! Come over to Fuchka-Wali and enjoy our 'Peshawari Fuchka' infused with Beef/Chicken Filling, Green Sauce and other ingredients to give a unique mind blogging flavor!</p>
+        <div class="row">
+
+            <div class="col-sm-4">
+                <h3  style="color: yellow;">price: 200tk</h3>
+            </div>
+            <div class="col-sm-4 col-md-4 col-4">
+                <button   type="button" type="button" class="btn btn-primary "><a class="olink" href="payment.html"> order now</a></button>
+            </div>
+            <div class="col-sm-4 col-md-4 col-4">
+                <button  style="background-color: black;" type="button" type="button" class="btn btn-Dark"><a class="olink" href="cart.html"> add to cart</a></button>
+            </div>
+        </div>
+    </div>
+   
+    <div class="col-sm-4">
+<img style="width: 100%; " src="https://scontent.fdac14-1.fna.fbcdn.net/v/t1.0-0/p180x540/71820230_130958948281296_7407007586869837824_o.jpg?_nc_cat=107&_nc_sid=730e14&_nc_ohc=6jD_ZpJRwIUAX-mHEGz&_nc_ht=scontent.fdac14-1.fna&tp=6&oh=9bf484892e6d8dd62f5e86a12ab87347&oe=5F6D74B3" alt="">
+
+</div>
+</div>
+
+
+<div style="margin-top:40px; border-bottom: 1px solid yellow;" class="row" >
+
+<div class="col-sm-8">
+<h1  style="color: yellow;">BOLOGNESE</h1>
+    <p>Have you had our signature "Bolognese Fuchka" yet? If you haven't, then you're definitely missing out on all the good things in life! Visit Fuchka-Wali and try out our ‘Bolognese Fuchkas’ stuffed with delicious Beef Filling topped with White Creamy Sauce for that perfect crispy Blend</p>
+    <div class="row">
+
+        <div class="col-sm-4">
+            <h3  style="color: yellow;">price: 200tk</h3>
+        </div>
+        <div class="col-sm-4 col-md-4 col-4">
+            <button type="button" class="btn btn-primary "><a class="olink" href="payment.html"> order now</a></button>
+        </div>
+        <div class="col-sm-4 col-md-4 col-4">
+            <button  style="background-color: black;" type="button" type="button" class="btn btn-Dark"><a class="olink" href="cart.html"> add to cart</a></button>
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-4">
+<img style="width: 100%; " src="https://scontent.fdac14-1.fna.fbcdn.net/v/t1.0-0/p180x540/71510248_130952084948649_5266443762543886336_o.jpg?_nc_cat=108&_nc_sid=730e14&_nc_ohc=XtggBN0-qIAAX-ukTBG&_nc_ht=scontent.fdac14-1.fna&tp=6&oh=881974c6484bf9ae9bab88cc58aabeb2&oe=5F6E2652" alt="">
+
+</div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6">
+    <iframe width="100%" height="300px" src="https://www.youtube.com/embed/uQ286WweNLY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+         <div class="col-sm-6">
+            <iframe width="100%" height="300" src="https://www.youtube.com/embed/61OFSAqRwLY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
+</div>
+
+
+<div class="row">
+    <div class="col-sm-6">
+        <iframe width="100%" height="300" src="https://www.youtube.com/embed/Tgjqj7_njAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </div>
+         <div class="col-sm-6">
+            <iframe width="100%" height="300" src="https://www.youtube.com/embed/RR79hBChUcw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+
+</div>
+
+
+
+
+<footer id="fh5co-footer" class="fh5co-bg" role="contentinfo">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row row-pb-md">
+				<div class="col-md-4 fh5co-widget">
+					<h3>A Little About Fuchka-Wali.</h3>
+					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+					<p><a class="btn btn-primary" href="#">back to top</a></p>
+				</div>
+				<div class="col-md-8">
+					<h3>Classes</h3>
+					<div class="col-md-4 col-sm-4 col-xs-6">
+						<ul class="fh5co-footer-links">
+							<li><a href="#">Cardio</a></li>
+							<li><a href="#">Body Building</a></li>
+							<li><a href="#">Yoga</a></li>
+							<li><a href="#">Boxing</a></li>
+							<li><a href="#">Running</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-4 col-sm-4 col-xs-6">
+						<ul class="fh5co-footer-links">
+							<li><a href="#">Boxing</a></li>
+							<li><a href="#">Martial Arts</a></li>
+							<li><a href="#">Karate</a></li>
+							<li><a href="#">Kungfu</a></li>
+							<li><a href="#">Basketball</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-4 col-sm-4 col-xs-6">
+						<ul class="fh5co-footer-links">
+							<li><a href="#">Badminton</a></li>
+							<li><a href="#">Body Building</a></li>
+							<li><a href="#">Teams</a></li>
+							<li><a href="#">Advertise</a></li>
+							<li><a href="#">API</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; 2019 | All Rights Reserved.</small> 
+						<small class="block">Powered by  fuchka-wali.unaux.com</small>
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
